@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9BA7E320590B520031271F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA7E220590B520031271F /* AppDelegate.swift */; };
+		CD9BA7E520590B520031271F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA7E420590B520031271F /* ViewController.swift */; };
+		CD9BA7E820590B520031271F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9BA7E620590B520031271F /* Main.storyboard */; };
+		CD9BA7EB20590B520031271F /* WebServerConnect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA7E920590B520031271F /* WebServerConnect.xcdatamodeld */; };
+		CD9BA7ED20590B520031271F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9BA7EC20590B520031271F /* Assets.xcassets */; };
+		CD9BA7F020590B520031271F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9BA7EE20590B520031271F /* LaunchScreen.storyboard */; };
+		CD9BA7FB20590B520031271F /* WebServerConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA7FA20590B520031271F /* WebServerConnectTests.swift */; };
+		CD9BA80620590B520031271F /* WebServerConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA80520590B520031271F /* WebServerConnectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9BA7F720590B520031271F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9BA7D720590B520031271F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9BA7DE20590B520031271F;
+			remoteInfo = WebServerConnect;
+		};
+		CD9BA80220590B520031271F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9BA7D720590B520031271F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9BA7DE20590B520031271F;
+			remoteInfo = WebServerConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD9BA7DF20590B520031271F /* WebServerConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServerConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9BA7E220590B520031271F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9BA7E420590B520031271F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD9BA7E720590B520031271F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9BA7EA20590B520031271F /* WebServerConnect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebServerConnect.xcdatamodel; sourceTree = "<group>"; };
+		CD9BA7EC20590B520031271F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9BA7EF20590B520031271F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9BA7F120590B520031271F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9BA7F620590B520031271F /* WebServerConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebServerConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9BA7FA20590B520031271F /* WebServerConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServerConnectTests.swift; sourceTree = "<group>"; };
+		CD9BA7FC20590B520031271F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9BA80120590B520031271F /* WebServerConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebServerConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9BA80520590B520031271F /* WebServerConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServerConnectUITests.swift; sourceTree = "<group>"; };
+		CD9BA80720590B520031271F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9BA7DC20590B520031271F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9BA7F320590B520031271F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9BA7FE20590B520031271F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9BA7D620590B520031271F = {
+			isa = PBXGroup;
+			children = (
+				CD9BA7E120590B520031271F /* WebServerConnect */,
+				CD9BA7F920590B520031271F /* WebServerConnectTests */,
+				CD9BA80420590B520031271F /* WebServerConnectUITests */,
+				CD9BA7E020590B520031271F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9BA7E020590B520031271F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9BA7DF20590B520031271F /* WebServerConnect.app */,
+				CD9BA7F620590B520031271F /* WebServerConnectTests.xctest */,
+				CD9BA80120590B520031271F /* WebServerConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9BA7E120590B520031271F /* WebServerConnect */ = {
+			isa = PBXGroup;
+			children = (
+				CD9BA7E220590B520031271F /* AppDelegate.swift */,
+				CD9BA7E420590B520031271F /* ViewController.swift */,
+				CD9BA7E620590B520031271F /* Main.storyboard */,
+				CD9BA7EC20590B520031271F /* Assets.xcassets */,
+				CD9BA7EE20590B520031271F /* LaunchScreen.storyboard */,
+				CD9BA7F120590B520031271F /* Info.plist */,
+				CD9BA7E920590B520031271F /* WebServerConnect.xcdatamodeld */,
+			);
+			path = WebServerConnect;
+			sourceTree = "<group>";
+		};
+		CD9BA7F920590B520031271F /* WebServerConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9BA7FA20590B520031271F /* WebServerConnectTests.swift */,
+				CD9BA7FC20590B520031271F /* Info.plist */,
+			);
+			path = WebServerConnectTests;
+			sourceTree = "<group>";
+		};
+		CD9BA80420590B520031271F /* WebServerConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9BA80520590B520031271F /* WebServerConnectUITests.swift */,
+				CD9BA80720590B520031271F /* Info.plist */,
+			);
+			path = WebServerConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9BA7DE20590B520031271F /* WebServerConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9BA80A20590B520031271F /* Build configuration list for PBXNativeTarget "WebServerConnect" */;
+			buildPhases = (
+				CD9BA7DB20590B520031271F /* Sources */,
+				CD9BA7DC20590B520031271F /* Frameworks */,
+				CD9BA7DD20590B520031271F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebServerConnect;
+			productName = WebServerConnect;
+			productReference = CD9BA7DF20590B520031271F /* WebServerConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9BA7F520590B520031271F /* WebServerConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9BA80D20590B520031271F /* Build configuration list for PBXNativeTarget "WebServerConnectTests" */;
+			buildPhases = (
+				CD9BA7F220590B520031271F /* Sources */,
+				CD9BA7F320590B520031271F /* Frameworks */,
+				CD9BA7F420590B520031271F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9BA7F820590B520031271F /* PBXTargetDependency */,
+			);
+			name = WebServerConnectTests;
+			productName = WebServerConnectTests;
+			productReference = CD9BA7F620590B520031271F /* WebServerConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9BA80020590B520031271F /* WebServerConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9BA81020590B520031271F /* Build configuration list for PBXNativeTarget "WebServerConnectUITests" */;
+			buildPhases = (
+				CD9BA7FD20590B520031271F /* Sources */,
+				CD9BA7FE20590B520031271F /* Frameworks */,
+				CD9BA7FF20590B520031271F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9BA80320590B520031271F /* PBXTargetDependency */,
+			);
+			name = WebServerConnectUITests;
+			productName = WebServerConnectUITests;
+			productReference = CD9BA80120590B520031271F /* WebServerConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9BA7D720590B520031271F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "元木嵩人";
+				TargetAttributes = {
+					CD9BA7DE20590B520031271F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD9BA7F520590B520031271F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD9BA7DE20590B520031271F;
+					};
+					CD9BA80020590B520031271F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD9BA7DE20590B520031271F;
+					};
+				};
+			};
+			buildConfigurationList = CD9BA7DA20590B520031271F /* Build configuration list for PBXProject "WebServerConnect" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9BA7D620590B520031271F;
+			productRefGroup = CD9BA7E020590B520031271F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9BA7DE20590B520031271F /* WebServerConnect */,
+				CD9BA7F520590B520031271F /* WebServerConnectTests */,
+				CD9BA80020590B520031271F /* WebServerConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9BA7DD20590B520031271F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9BA7F020590B520031271F /* LaunchScreen.storyboard in Resources */,
+				CD9BA7ED20590B520031271F /* Assets.xcassets in Resources */,
+				CD9BA7E820590B520031271F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9BA7F420590B520031271F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9BA7FF20590B520031271F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9BA7DB20590B520031271F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9BA7E520590B520031271F /* ViewController.swift in Sources */,
+				CD9BA7EB20590B520031271F /* WebServerConnect.xcdatamodeld in Sources */,
+				CD9BA7E320590B520031271F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9BA7F220590B520031271F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9BA7FB20590B520031271F /* WebServerConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9BA7FD20590B520031271F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9BA80620590B520031271F /* WebServerConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9BA7F820590B520031271F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9BA7DE20590B520031271F /* WebServerConnect */;
+			targetProxy = CD9BA7F720590B520031271F /* PBXContainerItemProxy */;
+		};
+		CD9BA80320590B520031271F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9BA7DE20590B520031271F /* WebServerConnect */;
+			targetProxy = CD9BA80220590B520031271F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9BA7E620590B520031271F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9BA7E720590B520031271F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9BA7EE20590B520031271F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9BA7EF20590B520031271F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9BA80820590B520031271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9BA80920590B520031271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9BA80B20590B520031271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL6N545Y8M;
+				INFOPLIST_FILE = WebServerConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takaMTK.WebServerConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9BA80C20590B520031271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL6N545Y8M;
+				INFOPLIST_FILE = WebServerConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takaMTK.WebServerConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD9BA80E20590B520031271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL6N545Y8M;
+				INFOPLIST_FILE = WebServerConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takaMTK.WebServerConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebServerConnect.app/WebServerConnect";
+			};
+			name = Debug;
+		};
+		CD9BA80F20590B520031271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL6N545Y8M;
+				INFOPLIST_FILE = WebServerConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takaMTK.WebServerConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebServerConnect.app/WebServerConnect";
+			};
+			name = Release;
+		};
+		CD9BA81120590B520031271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL6N545Y8M;
+				INFOPLIST_FILE = WebServerConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takaMTK.WebServerConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebServerConnect;
+			};
+			name = Debug;
+		};
+		CD9BA81220590B520031271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL6N545Y8M;
+				INFOPLIST_FILE = WebServerConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takaMTK.WebServerConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebServerConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9BA7DA20590B520031271F /* Build configuration list for PBXProject "WebServerConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9BA80820590B520031271F /* Debug */,
+				CD9BA80920590B520031271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9BA80A20590B520031271F /* Build configuration list for PBXNativeTarget "WebServerConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9BA80B20590B520031271F /* Debug */,
+				CD9BA80C20590B520031271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9BA80D20590B520031271F /* Build configuration list for PBXNativeTarget "WebServerConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9BA80E20590B520031271F /* Debug */,
+				CD9BA80F20590B520031271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9BA81020590B520031271F /* Build configuration list for PBXNativeTarget "WebServerConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9BA81120590B520031271F /* Debug */,
+				CD9BA81220590B520031271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD9BA7E920590B520031271F /* WebServerConnect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD9BA7EA20590B520031271F /* WebServerConnect.xcdatamodel */,
+			);
+			currentVersion = CD9BA7EA20590B520031271F /* WebServerConnect.xcdatamodel */;
+			path = WebServerConnect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD9BA7D720590B520031271F /* Project object */;
+}
