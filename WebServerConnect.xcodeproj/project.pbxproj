@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		589DD329269E8717EFB624D7 /* Pods_WebServerConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5675220EE97C5F4CB42D6092 /* Pods_WebServerConnect.framework */; };
 		CD9BA7E320590B520031271F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA7E220590B520031271F /* AppDelegate.swift */; };
 		CD9BA7E520590B520031271F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA7E420590B520031271F /* ViewController.swift */; };
 		CD9BA7E820590B520031271F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9BA7E620590B520031271F /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		CD9BA7F020590B520031271F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9BA7EE20590B520031271F /* LaunchScreen.storyboard */; };
 		CD9BA7FB20590B520031271F /* WebServerConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA7FA20590B520031271F /* WebServerConnectTests.swift */; };
 		CD9BA80620590B520031271F /* WebServerConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA80520590B520031271F /* WebServerConnectUITests.swift */; };
+		CD9BA814205928960031271F /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA813205928960031271F /* PersonView.swift */; };
+		CD9BA8162059296A0031271F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BA8152059296A0031271F /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B2AB681CFD026C894FC91C7 /* Pods-WebServerConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServerConnect.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebServerConnect/Pods-WebServerConnect.release.xcconfig"; sourceTree = "<group>"; };
+		5675220EE97C5F4CB42D6092 /* Pods_WebServerConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebServerConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9BA7DF20590B520031271F /* WebServerConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServerConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9BA7E220590B520031271F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD9BA7E420590B520031271F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		CD9BA80120590B520031271F /* WebServerConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebServerConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9BA80520590B520031271F /* WebServerConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServerConnectUITests.swift; sourceTree = "<group>"; };
 		CD9BA80720590B520031271F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9BA813205928960031271F /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		CD9BA8152059296A0031271F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F0EF0115B4A9C336278BA558 /* Pods-WebServerConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServerConnect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebServerConnect/Pods-WebServerConnect.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				589DD329269E8717EFB624D7 /* Pods_WebServerConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A483811A0592053E1362390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5675220EE97C5F4CB42D6092 /* Pods_WebServerConnect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD9BA7D620590B520031271F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +100,8 @@
 				CD9BA7F920590B520031271F /* WebServerConnectTests */,
 				CD9BA80420590B520031271F /* WebServerConnectUITests */,
 				CD9BA7E020590B520031271F /* Products */,
+				FC41EADBFE29B09C7A458554 /* Pods */,
+				6A483811A0592053E1362390 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +120,8 @@
 			children = (
 				CD9BA7E220590B520031271F /* AppDelegate.swift */,
 				CD9BA7E420590B520031271F /* ViewController.swift */,
+				CD9BA813205928960031271F /* PersonView.swift */,
+				CD9BA8152059296A0031271F /* Person.swift */,
 				CD9BA7E620590B520031271F /* Main.storyboard */,
 				CD9BA7EC20590B520031271F /* Assets.xcassets */,
 				CD9BA7EE20590B520031271F /* LaunchScreen.storyboard */,
@@ -128,6 +149,15 @@
 			path = WebServerConnectUITests;
 			sourceTree = "<group>";
 		};
+		FC41EADBFE29B09C7A458554 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF0115B4A9C336278BA558 /* Pods-WebServerConnect.debug.xcconfig */,
+				2B2AB681CFD026C894FC91C7 /* Pods-WebServerConnect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD9BA80A20590B520031271F /* Build configuration list for PBXNativeTarget "WebServerConnect" */;
 			buildPhases = (
+				3C34DA35A56C26177D58DC81 /* [CP] Check Pods Manifest.lock */,
 				CD9BA7DB20590B520031271F /* Sources */,
 				CD9BA7DC20590B520031271F /* Frameworks */,
 				CD9BA7DD20590B520031271F /* Resources */,
+				5EA29858D71030C9A4CDC208 /* [CP] Embed Pods Frameworks */,
+				1E69562FA9AE5408D046C2AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +290,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E69562FA9AE5408D046C2AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebServerConnect/Pods-WebServerConnect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C34DA35A56C26177D58DC81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebServerConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA29858D71030C9A4CDC208 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WebServerConnect/Pods-WebServerConnect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebServerConnect/Pods-WebServerConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD9BA7DB20590B520031271F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9BA8162059296A0031271F /* Person.swift in Sources */,
+				CD9BA814205928960031271F /* PersonView.swift in Sources */,
 				CD9BA7E520590B520031271F /* ViewController.swift in Sources */,
 				CD9BA7EB20590B520031271F /* WebServerConnect.xcdatamodeld in Sources */,
 				CD9BA7E320590B520031271F /* AppDelegate.swift in Sources */,
@@ -428,14 +519,18 @@
 		};
 		CD9BA80B20590B520031271F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0EF0115B4A9C336278BA558 /* Pods-WebServerConnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: taka.soccer.1030@icloud.com (WNEQFLL3KP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HL6N545Y8M;
 				INFOPLIST_FILE = WebServerConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takaMTK.WebServerConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +538,18 @@
 		};
 		CD9BA80C20590B520031271F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2AB681CFD026C894FC91C7 /* Pods-WebServerConnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: taka.soccer.1030@icloud.com (WNEQFLL3KP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HL6N545Y8M;
 				INFOPLIST_FILE = WebServerConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takaMTK.WebServerConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
